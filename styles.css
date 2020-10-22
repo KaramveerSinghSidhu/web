@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+    background-color: lightblue;
+    margin: 10px;
+}
+img {
+    width: 150px;
+}
+
+#container {
+    position: relative;
+    background-color: red;
+    width: 100vw;
+}
+
+#img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#firstletter{
+    font-size: 35px;
+    line-height: 50px
+}
+
+#para {
+    position: absolute;
+    top: 0;
+    left: 160px;
+    width: calc(100vw-50);
+}
+
+#info {
+    position: absolute;
+    top: 150px;
+}
+
+#info p {
+    padding-top: 0;
+    margin-top: 0;
+}
+#bot{
+    top: 425px;
+    position: absolute;
+}
+#gif{
+    position: relative;
+    float: right;
+}
